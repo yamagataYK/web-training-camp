@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="./css/dream.css">
+    <meta name="theme-color" content="#8A77C8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>夢占い</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="search_wrap">
+            <div class="search">
+                <h1>夢を占う</h1>
+                <div class="search_input">
+                    <form action="https://www.google.com/search" method="GET">
+                        <input type="text" name="q" id="search_query" placeholder="検索ワードを入力">
+                        <button type="submit" id="search_button">🔍</button>
+                    </form>
+                </div>
+                <div class="result">
+                    <h2>検索履歴</h2>
+
+                    <ul id="search_history"></ul>
+                    <button type="button" id="clear_button">履歴をクリア</button>
+                </div>
+            </div>
+            <div class="search_line">
+                <div class="line"></div>
+                <h2>良く検索されるワード</h2>
+                <div class="line"></div>
+            </div>
+            <div class="search_word">
+                <p>#自分が死ぬ夢</p>
+                <p>#殺される夢</p>
+            </div>
+            <div class="search_word">
+                <p>#歯が抜ける夢</p>
+                <p>#カラスに襲われる夢</p>
+            </div>
+            <div class="search_word">
+                <p>#嫌いな人夢</p>
+                <p>#火事の夢</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <div class="page_icon_wrap">
+                <div>
+                    <a href="./home.html"><i class="fa-solid fa-house"></i></a>
+                </div>
+                <div>
+                    <a href="./serch.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div>
+                    <a href="./frend.html"><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div class="my_icon">
+                    <a href="./profile.html"><img src="./img/icon.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="dream.js"></script>
+
+</body>
+
+</html>

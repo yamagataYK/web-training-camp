@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8A77C8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>みんなの夢</title>
+</head>
+
+<body>
+    <main>
+        <div class="inner">
+            <div class="search">
+                <div class="search_title">
+                    <h1>みんなの夢を見る</h1>
+                </div>
+                <div class="search_input">
+                    <input type="text" id="searchQuery" placeholder="検索ワードを入力">
+                    <button onclick="searchGoogle()">🔍</button>
+                </div>
+                <div class="result">
+                    <h3>検索履歴</h3>
+                    <ul id="searchHistory"></ul>
+                    <button onclick="clearHistory()">履歴をクリア</button>
+                </div>
+            </div>
+            <article class="impressed happy">
+                <div class="inner">
+                    <h2 class="article_title">夢見る少女と星の願い</h2>
+                    <img src="./img/dream1.png" alt="">
+                    <p class="article_text">夜空に輝く星を眺めながら、小さな町に住む少女・ルナはいつも夢を見ていた。
+                        「いつか、私はこの町を飛び出して、世界中を旅するんだ！」
+                        ルナの夢は大きかった。でも、現実はそう簡単ではなかった。町では父の小さなパン屋を手伝い、毎日同じ景色の中で暮らしていた。母は彼女に言った。
+                        「夢を見ることは大切よ。でも、叶えるには努力が必要なの。」
+                    </p>
+                    <div class="shea">
+                        <div class="shea_text">
+                            <p>#感動</p>
+                            <p>#幸せ</p>
+                        </div>
+                        <p><i class="fa-solid fa-heart"></i></p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cry therapy">
+                <div class="inner">
+                    <h2 class="article_title">星に願いを</h2>
+                    <img src="./img/dream2.png" alt="">
+                    <p class="article_text">小さな港町に住む少女、エリナはいつも海を眺めていた。
+                        「いつか、お兄ちゃんが帰ってくるよね。」
+                        彼女の兄、レオンは船乗りだった。エリナがまだ幼い頃、レオンは「大きくなったら、一緒に旅に出よう」と約束し、遠い海へと旅立った。しかし、それから何年経っても、彼は戻ってこなかった。
+                        毎日、海を見つめては、星に願いをかける。
+                    </p>
+                    <div class="shea">
+                        <div class="shea_text">
+                            <p>#悲しい</p>
+                            <p>#癒し</p>
+                        </div>
+                        <p><i class="fa-solid fa-heart"></i></p>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="interesting scary">
+                <div class="inner">
+                    <h2 class="article_title">いたずら魔法使い</h2>
+                    <img src="./img/dream3.png" alt="">
+                    <p class="article_text">小さな村に住むリリアは、魔法学校の落ちこぼれだった。努力はしているのに、なぜか呪文を唱えるたびに失敗する。
+                        「よーし、今日こそ成功させるわよ！」
+                        リリアは村の広場で魔法の杖を握りしめ、慎重に呪文を唱えた。
+                        「ピリリパパパ！　ホウキよ、空を舞え！」
+                        しかし、ホウキは飛ぶどころか猛スピードで暴走し、村中を駆け回った。
+                        「ぎゃああ！ なんでそうなるのよ！？」
+                    </p>
+                    <div class="shea">
+                        <div class="shea_text">
+                            <p>#面白い</p>
+                            <p>#怖い</p>
+                        </div>
+                        <p><i class="fa-solid fa-heart"></i></p>
+                    </div>
+                </div>
+
+            </article>
+
+            <article class="cute interesting">
+                <div class="inner">
+                    <h2 class="article_title">おしゃべり猫と大騒動</h2>
+                    <img src="./img/dream4.png" alt="">
+                    <p class="article_text">リリアはある日、魔法の本で「動物と話せる呪文」を見つけた。
+                        「これなら失敗しないはず！」
+                        そう思いながら、家の飼い猫・ミントに向かって呪文を唱えた。
+                        「ミャオニャオ・トーク！」
+                        すると、ミントが突然口を開いた。
+                        「やっと喋れるニャ！ ところで、朝ごはんの魚、しょっぱかったニャ！」
+                        「えっ！？ 喋れるの！？」
+                        リリアは驚いたが、それ以上にミントの毒舌が止まらなかった。
+                        「最近、掃除サボってるニャ！ 部屋が毛だらけニャ！」
+                        「あと、お前の魔法、ほんっとにヘタニャ！」
+                    </p>
+                    <div class="shea">
+                        <div class="shea_text">
+                            <p>#面白い</p>
+                            <p>#可愛い</p>
+                        </div>
+                        <p><i class="fa-solid fa-heart"></i></p>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="scary">
+                <div class="inner">
+                    <h2 class="article_title">深夜の足音</h2>
+                    <img src="./img/dream5.png" alt="">
+                    <p class="article_text">リリアは最近、夜になると誰もいないはずの廊下から足音が聞こえることに気づいた。
+                        「おかしいな……誰もいないのに。」
+                        家族に聞いても、「そんな音は聞いたことがない」と言われる。最初は風のせいだと思っていたが、夜ごとに足音は大きくなり、時には彼女の部屋の前でピタリと止まる。
+                        ある晩、意を決してドアを開けると、そこには何もなかった。
+                        「やっぱり気のせい？」
+                    </p>
+                    <div class="shea">
+                        <div class="shea_text">
+                            <p>#怖い</p>
+                        </div>
+                        <p><i class="fa-solid fa-heart"></i></p>
+
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </main>
+    <footer>
+        <section>
+            <div class="page_icon_wrap">
+                <div>
+                    <a href="./home.html"><i class="fa-solid fa-house"></i></a>
+                </div>
+                <div>
+                    <a href="./serch.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div>
+                    <a href="./frend.html"><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div class="my_icon">
+                    <a href="./profile.html"><img src="./img/icon.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8A77C8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-new-css-reset/css/reset.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset@1.4.0/dist/reset.min.css"> -->
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>夢を描く</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="inner">
+            <div class="notPost"><a href="./home.html">← みんなの投稿を見る</a></div>
+            <div class="back">
+                <div class="inner">
+                    <section class="voice">
+                        <div class="img"><img src="./img/mic.png" alt=""></div>
+                        <p>音声入力する</p>
+                        <textarea name="voice"></textarea>
+
+                    </section>
+                    <section class="write">
+                        <div class="title unit">
+                            <p class="heading"><span class="required">※必須</span>：夢のタイトル</p>
+                            <input type="text" required>
+                        </div>
+
+                        <form id="genre" class="unit">
+                            <p class="heading"><span class="required">※必須</span>：どんなジャンルか</p>
+
+                            <label><input type="checkbox" name="genre" value="scary"> 怖い</label><br>
+                            <label><input type="checkbox" name="genre" value="sad"> 悲しい</label><br>
+                            <label><input type="checkbox" name="genre" value="funny"> 面白い</label><br>
+                            <label><input type="checkbox" name="genre" value="happy"> 楽しい</label><br>
+                            <label><input type="checkbox" name="genre" value="touching"> 感動</label><br>
+                        </form>
+
+                        <p id="result"></p>
+                        <div class="post"><a href="./home.html">投稿する</a></div>
+                        <div class="place unit">
+                            <p class="heading">どこにいたか</p>
+                            <input type="text">
+                        </div>
+                        <div class="who unit">
+                            <p class="heading">誰がいたか</p>
+                            <input type="text">
+                        </div>
+                        <div class="do unit">
+                            <p class="heading">何をしたか</p>
+                            <input type="text">
+                        </div>
+                        <div class="memo unit">
+                            <p class="heading">フリースペース</p>
+                            <textarea name="memo"></textarea>
+                        </div>
+                        <div class="post"><a href="./home.html">投稿する</a></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <div class="page_icon_wrap">
+                <div>
+                    <a href="./home.html"><i class="fa-solid fa-house"></i></a>
+                </div>
+                <div>
+                    <a href="./serch.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div>
+                    <a href="./frend.html"><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div class="my_icon">
+                    <a href="./profile.html"><img src="./img/icon.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
