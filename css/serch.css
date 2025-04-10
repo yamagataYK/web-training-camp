@@ -1,0 +1,64 @@
+html {
+    font-size: 62.5%;
+    max-height: max-content;
+}
+
+body {
+    background: linear-gradient(180deg, #8A77C8 0%, #E0BDF0 100%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90vh 10vh;
+    grid-template-areas:
+        "main "
+        "footer"
+    ;
+}
+
+main {
+    overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_icon_wrap {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+    border-radius: 20px 20px 0 0;
+
+    .fa-solid {
+        font-size: 30px;
+        color: #686868;
+    }
+
+    .fa-magnifying-glass {
+        color: #000;
+    }
+
+    .my_icon img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+}
